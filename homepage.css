@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  border: 2px white solid;
+  height: 940px;
+  width: 1900px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+.a {
+  grid-area: 1/ 1 / span 2 / span 8;
+  background-image: url("cherries.png");
+  text-align: center;
+
+}
+.b {
+  grid-area: 3 / 1 / span 5 / span 4;
+  background-color:rgb(143, 0, 0);
+}
+.c {
+  grid-area: 3 / 5 / span 5 / span 4;
+   background-color:rgb(143, 0, 0);
+}
+.d {
+	grid-area: 8 / 1 / span 2 / span 8;
+	background-image: url("cherries.png");
+	font-size: 20px;
+}
+.box {
+  border-radius: 5px;
+  border: 2px black solid;
+}
+body {
+	 background-color:white;
+}
+table {
+	width: 950px;	
+	background-color:rgb(143, 0, 0);
+}
+th {
+	font-size: 30px;
+	background-color:white;
+}
+td {
+	text-align: center;
+	background-color: white;
+}
+h1 {
+font-size: 50px;
+color: rgb(143, 0, 0);
+font-family: impact;
+}
+a {
+	color:black;
+}
+
+
