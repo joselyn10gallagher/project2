@@ -1,31 +1,31 @@
 .grid {
-  display: grid;
-  border: 2px white solid;
-  height: 940px;
-  width: 1900px;
-  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
-  grid-gap: 5px
+	display: grid;
+	border: 2px white solid;
+	height: 940px;
+	width: 1900px;
+	grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+	grid-gap: 5px
 }
- .a {
-  grid-area: 1/ 1 / span 2 / span 8;
+.box {
+	border-radius: 5px;
+	border: 2px black solid;
+}
+.a {
+	grid-area: 1/ 1 / span 2 / span 8;
  }
 .b {
-  grid-area: 3 / 1 / span 4 / span 4;
-  background-color: white;
-  font-family: calibri;
+	grid-area: 3 / 1 / span 4 / span 4;
+	background-color: white;
+	font-family: calibri;
 }
 .c {
-  grid-area: 3 / 5 / span 4 / span 4;
-  background-color: rgb(143, 0, 0);
-  color: white;
-  font-family: calibri;
+	grid-area: 3 / 5 / span 4 / span 4;
+	background-color: rgb(143, 0, 0);
+	color: white;
+	font-family: calibri;
 }
 .d {
 	grid-area: 7 / 1 / span 2 / span 8;
-}
-.box {
-  border-radius: 5px;
-  border: 2px black solid;
 }
 img {
 	width: 100%;
@@ -40,6 +40,7 @@ li {
 }
 body {
 	 background-color:rgb(143, 0, 0);
+	 cursor: url('http://www.rw-designer.com/cursor-view/51247.gif'), auto;
 }
 p {
 	font-size: 17px;

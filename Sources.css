@@ -1,0 +1,38 @@
+.grid {
+	display: grid;
+	height: 940px;
+	width: 1900px;
+	grid-template:repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+}
+.box {
+	border-radius: 5px;
+	border: 2px black solid;
+}
+.c{
+	grid-area: 3/ 3 / span 4 / span 4;
+	background-color: white;
+	text-align: center;
+}
+}
+img{
+	width:99%;
+}
+body {
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DxiWppr8AuoQoKKqGUG0otXS4lN21sikZArvdlxdh37ybjIyMA');
+	 cursor: url('http://www.rw-designer.com/cursor-view/51247.gif'), auto;
+}
+}
+h1{
+	font-family: impact;
+	font-size: 40px;
+	text-align: center;
+}
+p {
+	font-size: 25px;
+	font-family: calibri;
+}
+a {
+	color:black;
+	font-size: 26px;
+	font-family: calibri;
+}

@@ -1,39 +1,39 @@
 .grid {
-  display: grid;
-  border: 2px white solid;
-  height: 940px;
-  width: 1900px;
-  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
-  grid-gap: 5px;
+	display: grid;
+	border: 2px white solid;
+	height: 940px;
+	width: 1900px;
+	grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+	grid-gap: 5px;
+}
+.box {
+	border-radius: 5px;
+	border: 2px black solid;
 }
 .a {
-  grid-area: 1/ 1 / span 2 / span 8;
-  background-image: url("cherries.png");
-  text-align: center;
-
+	grid-area: 1/ 1 / span 2 / span 8;
+	background-image: url("cherries.png");
+	text-align: center;
 }
 .b {
-  grid-area: 3 / 1 / span 5 / span 4;
-  background-color:rgb(143, 0, 0);
+	grid-area: 3 / 1 / span 5 / span 4;
+	background-color:rgb(143, 0, 0);
 }
 .c {
-  grid-area: 3 / 5 / span 5 / span 4;
-   background-color:rgb(143, 0, 0);
+	grid-area: 3 / 5 / span 5 / span 4;
+	background-color:rgb(143, 0, 0);
 }
 .d {
 	grid-area: 8 / 1 / span 2 / span 8;
 	background-image: url("cherries.png");
 	font-size: 20px;
 }
-.box {
-  border-radius: 5px;
-  border: 2px black solid;
-}
 body {
 	 background-color:white;
+	 cursor: url('http://www.rw-designer.com/cursor-view/51247.gif'), auto;
 }
 table {
-	width: 950px;	
+	width: 925px;	
 	background-color:rgb(143, 0, 0);
 }
 th {
@@ -45,12 +45,18 @@ td {
 	background-color: white;
 }
 h1 {
-font-size: 50px;
-color: rgb(143, 0, 0);
-font-family: impact;
+	font-size: 50px;
+	color: rgb(143, 0, 0);
+	font-family: impact;
 }
 a {
 	color:black;
+	font-size: 26px;
 }
-
-
+img{
+	width: 50%;
+}
+p{
+	font-size: 20px;
+	font-family: calibri;
+}
